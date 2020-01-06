@@ -1,0 +1,81 @@
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #fff;
+    padding: 30px;
+}
+/*afuera de los cuadros*/
+
+.flex-container>div {
+    background-color: #1d262d;
+    width: 220px;
+    margin: 30px;
+    text-align: center;
+    font-size: 30px;
+    padding: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+/*dentro de los cuadros*/
+
+.new {
+    font-size: 25px;
+    color: #ffffff;
+    background-color: #e6005c;
+    padding: 10px 10px;
+    margin-left: -25px;
+    position: absolute;
+    box-shadow: 1px 1px 5px #000;
+    -moz-box-shadow: 1px 1px 5px #000;
+    -webkit-box-shadow: 1px 1px 5px #000;
+    border-bottom-right-radius: 10px;
+}
+.forma {
+    width: 0px;
+    height: 0px;
+    line-height: 0px;
+    border-left: 20px solid transparent;
+    border-top: 10px solid black;
+    position: absolute;
+    top: 100%;
+    left: 0px;
+}
+/*imagenes*/
+
+.playeras {
+    display: block;
+    width: 100%;
+}
+.info_imagen {
+    position: relative;
+}
+.overlay {
+    position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5);
+    /* Black see-through */
+    color: #f1f1f1;
+    width: 91%;
+    transition: .5s ease;
+    opacity: 0;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+}
+.info_imagen:hover .overlay {
+    opacity: 1;
+}
+.precio {
+    color: #bfbfbf;
+    font-size: 22px;
+}
+/*contenido de seccion*/
+
+.nomseccion {
+    width: 100%;
+    background-color: black;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}

@@ -1,0 +1,38 @@
+.social ul {
+    list-style: none;
+}
+.social ul li {
+    float: left;
+}
+.social ul li a {
+    display: inline-block;
+    color: #fff;
+    background: #000;
+    padding: 15px 15px;
+    text-decoration: none;
+    margin-right: 8px;
+    border-radius: 10px;
+}
+.social ul li .icon-facebook {
+    color: #1d262d;
+    background: linear-gradient(70deg, #0099ff, #00ffcc);
+}
+.social ul li .icon-twitter {
+    color: #1d262d;
+    background: linear-gradient(70deg, #0099ff, #00ffcc);
+}
+.social ul li .icon-instagram {
+    color: #1d262d;
+    background: linear-gradient(70deg, #0099ff, #00ffcc);
+}
+.social ul li .icon-spotify {
+    color: #1d262d;
+    background: linear-gradient(70deg, #0099ff, #00ffcc);
+}
+.social ul li .icon-soundcloud {
+    color: #1d262d;
+    background: linear-gradient(70deg, #0099ff, #00ffcc);
+}
+.social ul li a:hover {
+    background: #465c6d;
+}

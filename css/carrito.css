@@ -1,0 +1,117 @@
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.2s;
+    /*padding-top: 60px;*/
+}
+.sidenav a {
+    text-align: center;
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    left: 0px;
+    font-size: 36px;
+}
+.sidenav button {
+    width: 100%;
+    padding: 8px 8px 8px 32px;
+    font-size: 20px;
+    background-color: #00b8e6;
+    border: none;
+    display: block;
+    cursor: pointer;
+}
+.sidenav .btn_pagar2 {
+    padding: 0;
+}
+.sidenav button:hover {
+    background-color: #f1f1f1;
+}
+.sidenav .titulo {
+    text-align: center;
+    padding: 0px 8px 8px 32px;
+    font-size: 25px;
+    color: #fff;
+    display: block;
+    transition: 0.3s;
+    cursor: default;
+}
+.sidenav .titulo:hover {
+    color: #818181;
+}
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+    .sidenav a {
+        font-size: 18px;
+    }
+}
+.sidenav h2 {
+    text-align: center;
+    padding: 8px 8px 8px 32px;
+    font-size: 15px;
+    color: #fff;
+    display: block;
+}
+.sidenav img {
+    float: left;
+    width: 30%;
+    border-radius: 50%;
+}
+.sidenav .productos_c {
+    color: #fff;
+    padding: 15px;
+    background-color: #1a1a1a;
+    cursor: default;
+    position: relative;
+}
+.sidenav .nombre {
+    font-size: 15px;
+    width: 100%;
+    display: block;
+}
+.sidenav .cantidad {
+    width: 100%;
+    display: block;
+}
+.sidenav .cantidad .cantidad_in {
+    width: 20%;
+    padding: 5px;
+    text-align: center;
+}
+.sidenav .precio {
+    font-size: 15px;
+    width: 100%;
+    display: block;
+    text-align: center;
+}
+.sidenav .subtotal {
+    clear: left;
+}
+.sidenav .en_eliminar {
+    font-size: 50px;
+    position: absolute;
+    right: 15px;
+    top: 20%;
+    padding: 0;
+}
+.sidenav .en_eliminar:hover {
+    cursor: pointer;
+}
